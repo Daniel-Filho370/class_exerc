@@ -1,0 +1,13 @@
+print('import == importa toda uma biblioteca\nEx: ')
+print('import nome_da_biblioteca')
+print('from == seleciona uma Funcionalidade da biblioteca\nEx: ')
+print('from biblioteca import funcionalidade')
+
+print('biblioteca math')
+print('Funcionalidades:\n')
+print('ceil == Funcionalidade que arredonda pra cima')
+print('floor == Funcionalidade que arredonda pra baixo')
+print('trunc (truncate) == Funcionalidade que elimina da virgula pra frente(sem arrendondamento)')
+print('pow (power) == função que chama um potência **')
+print('sqrt (Square root) == Funcionalidade que calcula raiz quadrada')
+print('factorial == Funcionalidade que calcula fatorial')
