@@ -1,0 +1,11 @@
+print('-'*50)
+print('Digite sua data de nascimento:(em números inteiros)')
+ano = int(input('Ano:'))
+mes = int(input('Mês'))
+dias = int(input('Dia'))
+print('Digite o ano atual(em números inteiros)')
+anoatual = int(input('Ano:'))
+idade = anoatual - ano
+diastotais = (idade*365)+(mes*30)+(dias)
+print(f'você viveu {diastotais} dias até agora.')
+print('-'*50)
