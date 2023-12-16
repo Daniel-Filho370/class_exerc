@@ -9,7 +9,7 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu.''')
 n = choice([0, 1, 2, 3, 4, 5])
 # usuário escolhendo um número
 u = int(input('Tente adivinhar o número escolhido: '))
-# condição se venceu ou perdeu e printar na tela
+# condição se venceu ou perdeu e mostrar na tela
 if n == u:
     print('Você acertou o número {} foi escolhido.'.format(n))
 else:

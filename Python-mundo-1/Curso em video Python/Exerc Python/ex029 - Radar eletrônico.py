@@ -10,5 +10,5 @@ velocidade = float(input('Qual a velocidade do carro? '))
 multa = 7.00 * velocidade
 # se ultrapassar 80km mostrar multa
 if velocidade > 80.00:
-    print('Você foi multado no valor de {} por ter ultrapassado '
-          'o limite de velocidade, sua velocidade {}'.format(multa, velocidade))
+    print('Você foi multado no valor de {}R$ por ter ultrapassado '
+          'o limite de velocidade, sua velocidade {}KM/H'.format(multa, velocidade))

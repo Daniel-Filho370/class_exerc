@@ -22,4 +22,4 @@ if n2 < menor:
     menor = n2
 if n3 < menor:
     menor = n3
-print('Menor', menor)
+print('Menor:', menor)
