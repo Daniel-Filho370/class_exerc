@@ -5,17 +5,17 @@ pode exceder 30% do salário ou então o empréstimo será negado.
 ''')
 
 valor_casa = float(input('Valor da casa:\n'))
-salario_comprador = float(input('Salário do comprador:\n'))
-anos_pagando = int(input('Quantos anos de financiamento:\n'))
+salario = float(input('Salário do comprador:\n'))
+anos = int(input('Quantos anos de financiamento:\n'))
 
-quantidade_parcelas = anos_pagando * 12
-prestaçao_mensal = valor_casa / quantidade_parcelas
-minimo = salario_comprador * 0.30
+parcelas = anos * 12
+prestaçao = valor_casa / parcelas
+minimo = salario * 0.30
 
-if prestaçao_mensal > minimo:
-    print(f'Para pagar uma casa de {valor_casa} em {anos_pagando} anos a prestação será de R$ {prestaçao_mensal:.2f}')
+if prestaçao > minimo:
+    print(f'Para pagar uma casa de {valor_casa} em {anos} anos a prestação será de R$ {prestaçao:.2f}')
     print('Emprestimo negado por exceder o valor de 30% do seu salário.')
 
 else:
-    print(f'Para pagar uma casa de R$ {valor_casa} em {anos_pagando} anos a prestação será de {prestaçao_mensal:.2f}')
+    print(f'Para pagar uma casa de R$ {valor_casa} em {anos} anos a prestação será de {prestaçao:.2f}')
     print('Parabéns, emprestimo aprovado!')
